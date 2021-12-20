@@ -1,0 +1,20 @@
+{
+  "name": "codebot",
+  "version": "1.0.0",
+  "description": "A discord bot that teaches you how to code.",
+  "main": "sharding.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Varix",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.8.2",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "chalk": "^4.1.2",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.3.1",
+    "os-utils": "^0.0.14",
+    "rethinkdb": "^2.4.2"
+  }
+}
